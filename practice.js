@@ -125,7 +125,12 @@ function stateLooper(obj) {
 // Once all falsy values and their properties are removed, return the object
 
 function cleanUser(obj) {
-  // REPLACE THIS WITH YOUR CODE
+  for (const o in obj){
+    if (obj[o]){
+    } else {
+      delete obj[o];
+    }
+  }
 
   return obj;
 }
@@ -136,7 +141,8 @@ function cleanUser(obj) {
 // Return an array containing all the object's values.
 
 function getValues(obj) {
-  // REPLACE THIS WITH YOUR CODE
+  let objects = Object.values(obj)
+  return objects
 }
 
 /// ////////////// PROBLEM 11 ////////////////////
