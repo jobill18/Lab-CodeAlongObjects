@@ -31,7 +31,7 @@ function personLocation() {
 //Use dot notation to add a new property to the object backpack called frontPocket with the value equal to "compass".
 
 const backpack = {};
-
+backpack.frontPocket = 'compass'
 // Code Here
 
 /// ////////////// PROBLEM 4 ////////////////////
