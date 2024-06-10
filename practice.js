@@ -23,7 +23,7 @@ function personLocation() {
     age: 29,
     location: 'Orem, UT',
   };
-  return person[location]; // Code Here
+  return person['location']; // Code Here
 }
 
 /// ////////////// PROBLEM 3 ////////////////////
@@ -42,7 +42,7 @@ const person = {};
 
 person['firstName'] = 'sally';
 
-// Code Here
+let userFirstName = person.firstName; // Code Here
 
 /// ////////////// PROBLEM 5 ////////////////////
 
