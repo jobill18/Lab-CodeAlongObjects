@@ -57,7 +57,10 @@ let userFirstName = person.firstName; // Code Here
 // };
 
 function updateUser(user) {
-  // Code Here
+  user.name = 'Ryan';
+  user.pwHash = 'superSafe';
+  user.username = 'ryan2020';
+  return user// Code Here
 }
 
 /// ////////////// PROBLEM 6 ////////////////////
