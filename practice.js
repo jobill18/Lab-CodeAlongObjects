@@ -77,9 +77,11 @@ function updateUser(user) {
 // So updateProfile(userProfile, 'email', 'blah@yahoo.com') would update the email to 'blah@yahoo.com'
 
 function updateProfile(profile, property, value) {
+  profile[property] = value
   // Code here
   return profile;
 }
+// console.log(updateProfile(userProfile, 'email', 'blah@yahoo.com'))
 
 /// ////////////// PROBLEM 7 ////////////////////
 
