@@ -90,7 +90,9 @@ function updateProfile(profile, property, value) {
 // Return the updated object.
 
 function maxedOut(obj) {
-  // REPLACE THIS WITH YOUR CODE
+  for (const o in obj){
+    obj[o] = 'max';
+  }
 
   return obj;
 }
@@ -108,7 +110,11 @@ const state = {
 // Loop through the given object. If a value is greater than 3,000,000 set it to 0.
 
 function stateLooper(obj) {
-  // REPLACE THIS WITH YOUR CODE
+  for (const o in obj){
+    if (obj[o] > 3000000){
+      obj[o] = 0
+    }
+  }
   return obj;
 }
 
